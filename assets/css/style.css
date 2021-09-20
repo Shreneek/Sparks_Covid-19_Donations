@@ -535,7 +535,7 @@ a:hover {
   z-index: 1;
 }
 
-/* ===================================== Charity Number CSS ================================== */
+/* ===================================== Achievements Number CSS ================================== */
 .doctor-message {
   background-image: url("../images/slider/achievements.jpg");
   background-attachment: fixed;
@@ -694,8 +694,8 @@ a:hover {
   line-height: 28px;
 }
 ._Ol_er_qw1{
-  margin: 8px 0px;
-  padding: 5px;
+  margin: 12px 0px;
+  padding: 10px;
 }
 ._Ol_er_qw1 p {
   font-size: 19px;
