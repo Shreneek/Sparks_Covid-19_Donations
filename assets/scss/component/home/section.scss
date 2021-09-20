@@ -1,0 +1,245 @@
+// **************----------------- Featured section started-----------------**************
+.bg-02 {
+    padding: 50px 0px;
+    position: relative;
+    background: $color-primary;
+    z-index: 9;
+
+    .featured-box {
+        position: relative;
+        display: block;
+        margin: 20px 0px;
+        padding: 10px 20px;
+
+        .content {
+            display: block;
+            position: relative;
+            padding: 10px 20px;
+            position: relative;
+            border: 1px solid #dddd;
+            border-top: 0px;
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+
+            h3 {
+                font-size: 20px;
+                color: $text-primary;
+            }
+
+            p {
+                padding: 10px 0px;
+                color: $content-color;
+                font-size: 14px;
+                font-weight: 500;
+            }
+
+            ol {
+                li {
+                    display: inline-block;
+                    padding: 0 6px 0 0;
+                    border-right: 1px solid #dddd;
+                    color: $content-color;
+                    font-size: 13px;
+
+                    &:nth-child(3) {
+                        border: none;
+                    }
+                }
+            }
+        }
+
+        .feature-card {
+            position: relative;
+            border-top-right-radius: 6px;
+            border-top-left-radius: 6px;
+            overflow: hidden;
+            z-index: 3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            a {
+                position: absolute;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: $color-primary;
+                cursor: pointer;
+                width: 40px;
+                height: 40px;
+                border-radius: 50px;
+                transition: ease-in-out 0.9s;
+                visibility: hidden;
+                opacity: 0;
+                background: $color-main;
+                z-index: 2;
+            }
+
+            &:hover {
+                a {
+                    visibility: visible;
+                    opacity: 1;
+                }
+
+                &::before {
+                    height: 100%;
+                }
+            }
+
+            &::before {
+                position: absolute;
+                content: "";
+                background: $icons-color;
+                opacity: 0.8;
+                width: 100%;
+                top: 0;
+                height: 0;
+                transition: ease-in-out 0.4s;
+                z-index: 1;
+            }
+        }
+    }
+
+}
+// **************----------------- BLOG started-----------------**************
+.bg-04 {
+    padding: 50px 0px;
+    background: #eef6ff;
+    position: relative;
+    overflow: hidden;
+
+    ._lk_bg_sd_we {
+        position: relative;
+        overflow: hidden;
+        margin: 20px 0;
+        box-shadow: 0px 0px 15px 0px #ddd;
+
+        ._xs_we_er {
+            display: inline-block;
+            width: 100%;
+            padding: 15px;
+
+            ._he_w {
+                position: relative;
+                margin: 10px 0px;
+                z-index: 2;
+                overflow: hidden;
+
+                p {
+                    font-size: 16px;
+                    color: #5c5c5c;
+                    letter-spacing: 0.2px;
+                    line-height: 24px;
+                    margin: 15px 0px 10px 0px;
+                }
+
+                ol {
+                    li {
+                        color: #f55e45;
+                        font-size: 14px;
+                        display: inline-block;
+                        width: 100%;
+
+                        ._mn_cd_xs {
+                            margin: 0 10px;
+                        }
+
+                        span {
+                            color: #5c5c5c;
+                            font-size: 15px;
+                            font-weight: 500;
+                            margin: 0 5px 0 0;
+                        }
+                    }
+                }
+
+                h3 {
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: #292929;
+                }
+            }
+        }
+
+        ._bv_xs_we {
+            position: relative;
+            z-index: 1;
+            background: url(../images/blog/blog_2.jpg);
+            background-repeat: no-repeat !important;
+            height: 300px;
+            background-size: cover !important;
+            background-position: center !important;
+
+            &:hover {
+                &::before {
+                    opacity: 0.8;
+                    width: 100%;
+                    visibility: visible;
+                    transition: 0.5s;
+                }
+            }
+
+            &::before {
+                content: "";
+                position: absolute;
+                width: 0;
+                height: 100%;
+                top: 0;
+                background: $color-main;
+                transition: 0.5s;
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+    }
+}
+
+.heading {
+    position: relative;
+    padding: 0px 0 20px 0px;
+    display: block;
+    text-align: center;
+    z-index: 99;
+
+    h2 {
+        font-size: 25px;
+        color: $color-main;
+        font-weight: 800;
+        letter-spacing: 0.4px;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-size: 16px;
+        letter-spacing: 0.4px;
+        color: $content-color;
+        margin: 10px 0px;
+        font-weight: 400;
+        line-height: 27px;
+        text-transform: capitalize;
+    }
+}
+
+// **************-----------------About us Section-----------------**************
+.se-001 {
+    padding: 40px 0px;
+    position: relative;
+    overflow: hidden;
+
+    .yu {
+        text-align: center;
+    }
+
+    ._Ol_er_qw {
+        margin: 20px 0px;
+        padding: 10px;
+
+        p {
+            font-size: 15px;
+            color: $text-primary;
+            text-align: left;
+            letter-spacing: 0.5px;
+            line-height: 28px;
+        }
+    }
+}

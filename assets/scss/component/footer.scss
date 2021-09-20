@@ -1,0 +1,83 @@
+footer {
+    padding: 50px 0px 0px;
+    position: relative;
+    background-image: url(../images/background/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+
+    ._kl_de_w {
+        margin: 20px 0px;
+        padding: 10px 0px;
+        position: relative;
+
+        @media screen and (max-width:576px) {
+            margin: 10px 0 0 0;
+        }
+
+        .form-group {
+            a {
+                text-align: left;
+                padding: 6px 18px;
+                border-radius: 1px;
+                color: $color-primary;
+                background: $icons-color;
+                font-size: 15px;
+                display: inline-block;
+            }
+        }
+
+        ol {
+            li {
+                display: block;
+                margin: 0 25px 0 0;
+                padding: 10px 0px;
+                border-top: 1px solid #5f5c5c;
+                color: $color-primary;
+                font-size: 15px;
+
+                i {
+                    margin-right: 12px;
+                    color: $icons-color;
+                }
+
+                @media screen and(max-width:768px) {
+                    margin: 0px;
+                }
+            }
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 26px;
+            color: $color-primary;
+        }
+
+        h3 {
+            font-size: 20px;
+            margin: 0 0 20px 0;
+            color: $color-primary;
+        }
+    }
+
+    .copy-right {
+        position: relative;
+        padding: 15px 0px;
+        border-top: solid 1px #afafaf;
+
+
+        p {
+            font-size: 15px;
+            color: #ddd;
+            text-align: center;
+
+            a {
+                color: $icons-color;
+                font-weight: 600;
+                text-transform: uppercase;
+                padding-left: 15px;
+            }
+        }
+    }
+}
